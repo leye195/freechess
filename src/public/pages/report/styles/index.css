@@ -2,11 +2,10 @@ body {
     margin: 0;
     background-color: rgba(49, 51, 56, 255);
     width: 100vw;
+    overflow-x: hidden;
 }
 
-
 @media only screen and (max-width: 1536px) {
-
     body {
         overflow-x: hidden;
     }
@@ -49,11 +48,9 @@ body {
     #board-outer-container {
         gap: 0 !important;
     }
-
 }
 
 @media only screen and (max-width: 1030px) {
-
     #board {
         width: 531.2px !important;
         height: 531.2px !important;
@@ -82,11 +79,9 @@ body {
     #load-type-dropdown {
         margin-top: -8px !important;
     }
-
 }
 
 @media only screen and (max-width: 960px) {
-
     body {
         overflow-x: hidden;
         overflow-y: auto;
@@ -135,10 +130,7 @@ body {
     #classification-message-container {
         margin-top: 40px;
     }
-
-
 }
-
 
 @media only screen and (max-width: 750px) {
     #board {
@@ -198,7 +190,6 @@ body {
 .white {
     color: white;
 }
-
 
 .footer {
     width: 100%;
